@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Contact Info </title>
+</head>
+<body>
+{% extends "personal/header.html" %}
+
+
+{% block content %}
+
+	{% for c in content %}
+		<p>{{ c }}</p>
+	{% endfor %}
+
+
+{% endblock %}	
+</body>
+</html>
